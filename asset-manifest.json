@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.7f85b3a4.chunk.css",
+    "main.css": "/my-app/static/css/main.40fa88ed.chunk.css",
     "main.js": "/my-app/static/js/main.2af3301a.chunk.js",
     "main.js.map": "/my-app/static/js/main.2af3301a.chunk.js.map",
     "runtime-main.js": "/my-app/static/js/runtime-main.7720b7a2.js",
@@ -8,15 +8,16 @@
     "static/js/2.6b78a115.chunk.js": "/my-app/static/js/2.6b78a115.chunk.js",
     "static/js/2.6b78a115.chunk.js.map": "/my-app/static/js/2.6b78a115.chunk.js.map",
     "index.html": "/my-app/index.html",
-    "precache-manifest.2b2f7af5bc2846e876fc1c449f226ae8.js": "/my-app/precache-manifest.2b2f7af5bc2846e876fc1c449f226ae8.js",
+    "precache-manifest.a344ec6c4441e7e36dfc04582273e4f2.js": "/my-app/precache-manifest.a344ec6c4441e7e36dfc04582273e4f2.js",
     "service-worker.js": "/my-app/service-worker.js",
-    "static/css/main.7f85b3a4.chunk.css.map": "/my-app/static/css/main.7f85b3a4.chunk.css.map",
-    "static/js/2.6b78a115.chunk.js.LICENSE.txt": "/my-app/static/js/2.6b78a115.chunk.js.LICENSE.txt"
+    "static/css/main.40fa88ed.chunk.css.map": "/my-app/static/css/main.40fa88ed.chunk.css.map",
+    "static/js/2.6b78a115.chunk.js.LICENSE.txt": "/my-app/static/js/2.6b78a115.chunk.js.LICENSE.txt",
+    "static/media/button.module.scss": "/my-app/static/media/Poppins-SemiBold.4cdacb8f.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.7720b7a2.js",
     "static/js/2.6b78a115.chunk.js",
-    "static/css/main.7f85b3a4.chunk.css",
+    "static/css/main.40fa88ed.chunk.css",
     "static/js/main.2af3301a.chunk.js"
   ]
 }

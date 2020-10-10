@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30379ab88a29435b794054465579f127",
+    "revision": "001707ce2767ea7eff7d801c79179623",
     "url": "/my-app/index.html"
   },
   {
-    "revision": "360417ca4582ee7518df",
-    "url": "/my-app/static/css/main.7f85b3a4.chunk.css"
+    "revision": "ce60e5ef5aead6689253",
+    "url": "/my-app/static/css/main.40fa88ed.chunk.css"
   },
   {
     "revision": "0bdd47b88ecf87070ce2",
@@ -16,11 +16,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-app/static/js/2.6b78a115.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "360417ca4582ee7518df",
+    "revision": "ce60e5ef5aead6689253",
     "url": "/my-app/static/js/main.2af3301a.chunk.js"
   },
   {
     "revision": "3468c923e9fd6b35b477",
     "url": "/my-app/static/js/runtime-main.7720b7a2.js"
+  },
+  {
+    "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
+    "url": "/my-app/static/media/Poppins-Medium.f61a4eb2.ttf"
+  },
+  {
+    "revision": "4cdacb8f89d588d69e8570edcbe49507",
+    "url": "/my-app/static/media/Poppins-SemiBold.4cdacb8f.ttf"
   }
 ]);
