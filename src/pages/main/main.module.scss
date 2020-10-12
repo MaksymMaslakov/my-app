@@ -1,0 +1,38 @@
+@import '../pages.module.scss';
+
+.recent_projects_container {
+  margin-top: 68px;
+  margin-bottom: 20px;
+
+  & > div {
+    margin-left: -1px;
+  }
+
+  & > div > div:first-child > div {
+    margin-bottom: 31px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .recent_projects_container {
+    & > div > ul > li > div:first-child {
+      width: 348px;
+    }
+
+    & > div > ul > li:nth-child(2n+1) {
+      margin-right: 36px;
+    }
+
+    & > div > ul > li:nth-child(4n+2) {
+      margin-right: 35px;
+    }
+
+    & > div > ul > li:nth-child(4n) {
+      margin-right: 0px;
+    }
+
+    & > div > ul > li:nth-child(n+5) {
+      margin-top: 39px;
+    }
+  }
+}

@@ -14,8 +14,8 @@ export const List = ({title, description, items, rightComponent}) => {
                 </div>
             </div>
             <ul className={styles.list}>
-                {items.map(item => (
-                    <ListItem title={item.title} description={item.description}/>
+                {items.map((item, index) => (
+                    <ListItem key={index} title={item.title} description={item.description}/>
                 ))}
             </ul>
         </div>
