@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from '../pages.module.scss';
+import React from 'react'
+import styles from '../pages.module.scss'
 import {List} from '../../components/list/List'
-import { Menu } from '../../components/menu/Menu';
+import { MainMenu } from '../../components/main-menu/MainMenu'
 import {SearchField} from '../../components/search/SearchField'
 import avatarIcon from '../../resources/avatarIcon.png'
 import arrowIcon from '../../resources/arrowIcon.png'
@@ -35,7 +35,7 @@ function Main() {
                         <p className={styles.logo_description}>projects.com</p>
                     </div>
                 </div>
-                <Menu />
+                <MainMenu />
             </div>
             <div className={styles.main_panel}>
                 <List title="Build Your Skills" description="Find information that may be useful to you" items={buildSkillsItems} rightComponent={getLearnMore()}/>

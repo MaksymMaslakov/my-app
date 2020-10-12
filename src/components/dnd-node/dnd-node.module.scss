@@ -1,0 +1,77 @@
+@import '../../global';
+
+.node {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 37px;
+  letter-spacing: 1px;
+  margin: 0 5px 8.3px;
+  border-radius: 4px;
+  background: $button-grey;
+
+
+}
+
+.node_icon_container {
+  border-right: 1px solid $dark-grey;
+  width: 39px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2px;
+}
+
+.node_icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.node_title_container {
+  padding-left: 10px;
+  height: 35px;
+  flex: 1;
+}
+
+.node_title {
+  line-height: 35px;
+  font-family: Poppins;
+  font-size: 12px;
+}
+
+%node_circle {
+  width: 10px;
+  height: 10px;
+  background: inherit;
+  border-radius: 50%;
+  border: 1px solid $dark-grey;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.node_circle__start {
+  @extend %node_circle;
+  left: -5px;
+}
+
+.node_circle__end {
+  @extend %node_circle;
+  right: -5px;
+}
+
+.reverse_order {
+  order: 2;
+  padding: 2px 2px 0;
+  border-right: none;
+  border-left: 1px solid $dark-grey;
+  .node_icon {
+    padding-right: 6px;
+  }
+}
+
+.add_pl {
+  padding-left: 18px;
+}

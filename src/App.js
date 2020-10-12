@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 import {
     Switch,
     Route
-} from "react-router-dom";
+} from "react-router-dom"
 
-import styles from './app.module.scss';
+import styles from './app.module.scss'
 import Main from './pages/main/Main'
 import Dnd from './pages/dnd/Dnd'
 
